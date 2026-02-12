@@ -1,0 +1,5 @@
+const profileImage = document.getElementById("profileImage");
+
+profileImage.addEventListener("error", () => {
+  profileImage.src = "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80";
+});
